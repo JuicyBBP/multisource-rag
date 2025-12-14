@@ -8,4 +8,7 @@ echo "Press Ctrl+C to stop the server"
 echo ""
 
 export PYTHONPATH=/mnt/e/projetIA
-.venv/bin/python -m streamlit run src/frontend/app.py
+.venv/bin/python -m streamlit run src/frontend/app.py \
+  --server.address=0.0.0.0 \
+  --server.port=8501 \
+  --server.headless=true

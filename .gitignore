@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch & ML
+*.pth
+*.pkl
+*.ckpt
+*.h5
+*.onnx
+
+# Data & Databases
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+data/uploaded_docs/*
+!data/uploaded_docs/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.hypothesis/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+Thumbs.db
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# API Keys & Secrets (safety)
+*secret*
+*api_key*
+credentials.json
+service-account*.json
+
+# Large files
+*.zip
+*.tar.gz
+*.rar

@@ -55,6 +55,8 @@ data/chroma_db/*
 !data/chroma_db/.gitkeep
 data/uploaded_docs/*
 !data/uploaded_docs/.gitkeep
+data/test_docs/*
+!data/test_docs/.gitkeep
 data/cache/*
 !data/cache/.gitkeep
 *.db

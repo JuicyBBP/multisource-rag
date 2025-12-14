@@ -57,7 +57,6 @@ Accédez à :
 ## Documentation
 
 - [Spécifications Techniques](docs/specifications-techniques.md) - Architecture détaillée, stack tech, design
-- [Planification des Tâches](docs/planification-taches.md) - Roadmap, phases, tâches
 
 ## Fonctionnalités
 
@@ -112,35 +111,3 @@ mypy src/
 - Latence moyenne : <3s par requête
 - Support : 3+ types de documents
 - Architecture : Modulaire avec 6+ services
-
-## Compétences démontrées
-
-- LLMs & RAG Systems
-- Vector Databases
-- FastAPI & WebSockets
-- Streamlit UI/UX
-- Docker & CI/CD
-- Software Architecture
-- Testing & Documentation
-
-## Roadmap
-
-- [x] MVP : Pipeline RAG de base
-- [x] Frontend Streamlit
-- [x] Déploiement Docker
-- [ ] Multi-query generation
-- [ ] Reranking avec cross-encoder
-- [ ] Support base de données SQL
-- [ ] Recherche hybride (dense + sparse)
-
-## License
-
-MIT
-
-## Contact
-
-[Votre nom] - [Votre email/LinkedIn]
-
----
-
-**Projet portfolio - Intelligence Artificielle 2025**

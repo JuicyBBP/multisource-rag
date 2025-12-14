@@ -105,9 +105,3 @@ flake8 src/ tests/
 mypy src/
 ```
 
-## Métriques
-
-- Tests coverage : >80%
-- Latence moyenne : <3s par requête
-- Support : 3+ types de documents
-- Architecture : Modulaire avec 6+ services

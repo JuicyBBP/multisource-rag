@@ -99,3 +99,6 @@ service-account*.json
 *.zip
 *.tar.gz
 *.rar
+
+# Private documentation (CV/Portfolio)
+PROJECT_PRESENTATION.md
